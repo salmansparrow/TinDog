@@ -1,0 +1,42 @@
+/* Css Media Queries: */
+
+@Media print    print karthe waqt h1 balck se red hojaiga.
+{
+    h1{
+        color: red;
+    }
+}
+
+
+
+
+@media (max-width: 900px){    jese hi width 900 ya us se kam hogi h1 ka color red hojaiga.
+
+h1{
+    color: red;
+}
+
+}
+
+
+@media (max-width: 900px){  jese hi width 900 ya us se kam hogi h1 ka font size 60px hojaiga.
+h1{
+    font-size: 60px;
+}
+
+}
+
+
+@media (min-width: 900px) and (max-width: 1000px){      jese hi width 900 or 1000 px ke darmian hogi h1 ka font size 60px hojaiga
+h1{
+    font-size: 60px;
+}
+
+}
+
+
+/* Combining Selectors */
+selector1    selector2
+#title .container-fluid{   
+    font-size: 60px;
+}
